@@ -1,0 +1,102 @@
+body{
+    font-family: sans-serif;
+}
+
+.bs-linebreak {
+    height:10px;
+}
+
+.content{
+/*    margin: 0 auto;*/
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.break-line{
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: #454242;
+}
+
+#posts{
+    margin: 10px auto;
+    background-color: azure;
+    width: 80%;
+    height: 100%;
+    padding: 2%;
+    box-shadow: 1px 1px 5px #454242;
+}
+
+.post{
+    min-height: 500px;
+    background-color: antiquewhite;
+    border: 1px solid #454242;
+    transition: 0.3s box-shadow;
+    box-shadow: 1px 1px 4px #454242;
+    padding: 1%;
+    height: 10%;
+}
+
+.post:hover{
+    box-shadow: 1px 1px 10px #454242; 
+}
+
+.post-img{
+    max-height: 300px !important;
+/*    float: left;*/
+    margin-right: 1%;
+    background-color: white;
+}
+
+.post-img img{
+    max-height: 300px;
+}
+
+/*
+.post-info h2{
+    display: inline;
+}
+
+.post-info h5{
+    float: right;
+}
+*/
+
+.post .date{
+    color: darkgrey;
+}
+
+.buy-button-div{
+    text-align: center;
+}
+
+.buy-button {
+	box-shadow:inset 0px 1px 0px 0px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:20px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#14396a;
+	font-family:Times New Roman;
+	font-size:16px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+    margin: 0 auto;
+    transition: 0.5s all;
+}
+.buy-button:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.buy-button:active {
+	position:relative;
+	top:1px;
+}
